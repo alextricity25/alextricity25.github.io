@@ -2,7 +2,7 @@
   "name": "alex-vue-site-g2",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://alextricity25.github.io/alex-vue-site-g2/",
+  "homepage": "miguelalexcantu.com",
   "scripts": {
     "dev": "vite --host",
     "build": "run-p type-check build-only",
