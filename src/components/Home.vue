@@ -1,9 +1,11 @@
 <template>
   <div id="home" class="centerStage">
-    <div class="centerStageText">
+    <div
+        class="bg-image text-center"
+        style="
+        background-image: url('https://www.dropbox.com/s/wmqtbjo1mow1umf/IMG_9517.JPG?raw=true');
+        height: 100vh;">
       <NamePlate />
-    </div>
-    <div>
       <SocialMediaReel />
     </div>
   </div>
@@ -17,7 +19,7 @@ import SocialMediaReel from './SocialMediaReel.vue';
 export default {
   components: {
     NamePlate,
-    SocialMediaReel,
+    SocialMediaReel
   },
   name: 'home',
   data: function () {

@@ -108,10 +108,8 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 .socialMediaReel {
-  border: 1px solid;
-  border-radius: 40px 40px 40px 40px;
   font-family: 'Staatliches', cursive;
-  font-size: 25px;
+  font-size: 50px;
   letter-spacing: 3px;
   word-spacing: 2px;
   color: #FFFFFF;
@@ -128,6 +126,8 @@ export default {
   display: inline-block;
   width: 20%;
   position: relative;
+  -webkit-text-stroke: .75px black;
+	transition: .5s ease-in-out;
 }
 
 .fab, .fas {

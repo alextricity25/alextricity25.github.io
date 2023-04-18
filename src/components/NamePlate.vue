@@ -26,7 +26,7 @@ export default {
 .namePlate {
   margin-bottom: 15px;
   font-family: 'Staatliches', cursive;
-  font-size: 25px;
+  font-size: 40px;
   letter-spacing: 2px;
   word-spacing: 2px;
   color: #57624D;

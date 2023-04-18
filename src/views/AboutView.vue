@@ -1,14 +1,12 @@
 <template>
-  <div class="">
-    <h1 class="ui header" style="color: rgb(33 183 107)">
-      <i
-        aria-hidden="true"
-        class="drivers license outline icon"
-      >
-      </i>
-      About Me
-    </h1>
-    <p class="aboutMeParagraph">
+  <div
+    class="bg-image"
+    style="
+      background-image: url('https://www.dropbox.com/s/jehjjxrmbm0o9si/IMG_6277%20%282%29.JPG?raw=true');
+      height: 100vh;">
+    <h1 class=text-center>About Me</h1>
+    <div class="d-flex justify-content-center">
+    <p class="aboutMeParagraph justify-content-center">
     My full name is Miguel Alejandro Cantu, but people know me most commonly by the name Alex. I'm a Christian, Nature Enthusiast, Software Engineer, and Husband. <br><br>
 
     I grew up most of my life in San Antonio, TX. There I attended elementary, middle, and high school. I also graduated Magna Cum Laude from my local university, University of Texas at San Antonio with a Computer Science degree. <br><br>
@@ -31,37 +29,24 @@
 
 
     </p>
+    </div>
   </div>
 </template>
 
-<script>
-export default {
-  name: 'AboutMe',
-  data () {
-    return {
-    }
-  },
-  async created () {
-  }
-}
-</script>
-
 <style>
-
-.about-me {
-  color: #FFFFFF;
+@media (min-width: 1024px) {
+  .about {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
 }
 
 .aboutMeParagraph {
   background: #e8dcdccf;
   border-radius: 10px;
   padding: 5px;
+  color: black;
+  width: 100vh
 }
-
-.header {
-  color: rgb(33 183 107);
-  -webkit-text-stroke: .75px black;
-}
-
-
 </style>
